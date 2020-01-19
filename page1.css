@@ -1,0 +1,22 @@
+body{
+	background-color: grey;
+	margin:0;
+}
+.flexb{
+	display: flex;
+	flex-direction: row;
+}
+#male{
+	font-size: 30px;
+	color: white;
+	background-color: blue;
+	padding: 25%;
+	width: 60px;
+}
+#Female{
+	font-size: 30px;
+	color: white;
+	background-color: red;
+	padding: 25%;
+	width: 60px;
+}
