@@ -1,0 +1,29 @@
+body{
+    margin: 1px;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    width: 50%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+#Male{
+    color: white;
+    background-color: blue;
+    font-size: 350%;
+}
+a{
+    color:white;
+    padding-top: 55;
+    padding-bottom:55% ;
+
+}
+#Female{
+    background-color: red;
+    color: white;
+    font-size: 350%;
+}

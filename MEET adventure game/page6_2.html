@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("header").hover(function(){
+                $("header").css("cursor","pointer");
+            });
+            $(".choice1").click(function(){
+                window.location.href="page7.html"
+            });
+            $(".choice2").click(function(){
+                window.location.href="athome_endng.html"
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>
+            Will takes you to meet your friends and everyone starts sharing funny stories and you were in all of them.
+            You realize that if stories like these cant even give you the slightest hint of familiarity 
+            then nothing will. You look at the people around you and think that they are all good people but they remind you of something that is lost.
+            Do you want to tell them about your memory and continue being friends with them or do you want to leave these links to a missing past behind.
+        </p>
+    </div>
+    <img src="friends.jpeg" alt="">
+    <div class="flexb">
+        <header class="choice1">Trust them and Continue being friends</header>
+        <header class="choice2">Leave them behind</header>
+    </div>
+</body>
+</html>

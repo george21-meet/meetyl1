@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("header").hover(function(){
+                $("header").css("cursor","pointer");
+            });
+            $("header").click(function(){
+                window.location.href="page1.html";
+            });
+        });
+    </script>  
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>
+            Humans scare you now. You walked into a room and theres a bunch of Humans
+            wearing white coats looking  at you like you're some form of specimen or experiment.
+            That made you fear for your existence so you fled out of the city and into
+            a nearby forest. You continued your life in the wild where you rarely encountered
+            humans and had all the food you need.
+        </p>
+    </div>
+    <img src="isolation_ending.jpeg" alt="">
+    <div class="flexb">
+        <header>Restart?</header>
+    </div>
+</body>
+</html>

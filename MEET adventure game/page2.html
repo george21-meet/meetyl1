@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("header").hover(function(){
+                $("header").css("cursor","pointer")
+            });
+            $(".choice1").click(function(){
+                window.location.href="page3.html";
+            });
+            $(".choice2").click(function(){
+                window.location.href="g1.html";
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>You wake up in a bed that you dont remember,
+        in a room that you dont remember and a view from an apartment window that you dont remember.
+        after attempting unsuccesfully to remember who you are,you decide to start exploring this room in hopes of finding out why you are here.
+        after 20 minutes of exploring you find nothing and your stomach starts to rumble. 
+        you exit the room and a feeling of uncertainty hits you.
+        should you should get food from the grocery store or from the apple tree by the river</p>
+    </div>
+    <img src="apartment_view.jpeg">
+    <div class="flexb">
+        <header class="choice1">Apple Tree</header>
+        <header class="choice2">Grocery Store</header>
+    </div>
+</body>
+</html>

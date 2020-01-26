@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="common.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("header").hover(function(){
+                $("header").css("cursor","pointer");
+            });
+            $(".choice1").click(function(){
+                window.location.href="g4.html";
+            });
+            $(".choice2").click(function(){
+                window.location.href="isolation_ending.html";
+            });
+        });
+    </script>   
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>
+            The following day you head to the college campus and sophia 
+            greets you by the gate. She tells you that a team of researchers
+            want to meet you and are fascinated by what happened to you. She brings you to a 
+            lab and a group of people immediately start introducing themselves to you.
+            Sophia tells them to calm down and tells you that these people will look into your case.
+        </p>
+    </div>
+    <img src="team_of_researchers.jpeg" alt="">
+    <div class="flexb">
+        <header class="choice1">Introduce yourself</header>
+        <header class="choice2">Run Away</header>
+    </div>
+</body>
+</html>

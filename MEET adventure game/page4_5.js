@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $("header").hover(function(){
+        $("header").css("cursor","pointer");
+    });
+    $(".choice1").click(function(){
+        window.location.href="page6_2.html"
+    });
+    $(".choice2").click(function(){
+        window.location.href="athome_endng.html"
+    });
+});

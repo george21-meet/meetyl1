@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("header").hover(function(){
+                $("header").css("cursor","pointer");
+            });
+            $(".choice1").click(function(){
+                window.location.href="g2.html";
+            });
+            $(".choice2").click(function(){
+                window.location.href="g_interval.html";
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="common.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p> You enter the grocery store and pick out some things to eat.
+            You were about to exit the store when you realized that everyone is
+            exchanging some form of paper for the products. You step in line
+            and when its your turn you look for some of the paper in you wallet but find none.
+            A woman behind you offers to pay for you and you desperately accept. The woman says that her name
+            is Sophia and that she works as a college recruiter. Sophia says that she thinks that something weird and
+            interesting happened to you, so she proposed that if you let her college study whatever happened to you then you
+            get a full scholarship. Do you accept her offer or decline it
+        </p>
+    </div>
+    <img src="grocery_store.jpeg" alt="">
+    <div class="flexb">
+        <header class="choice1">Accept and tell her about your memory</header>
+        <header class="choice2">Decline and thank her</header>
+    </div>
+</body>
+</html>
