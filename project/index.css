@@ -1,0 +1,38 @@
+body{
+    background-image: url("dipped_apples.jpg");
+    background-origin: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#title{
+    font-size: 350%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+#subtitle{
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+    text-indent: 2%;
+    font-weight: bold;
+    text-align: center;
+
+}
+ul{
+    text-indent: 2%;
+    list-style: none;
+    font-size: 200%;
+
+
+}
+
+.btn{
+    width: 25%;
+    color: white;
+
+}
+.ing1{
+    white-space: initial;
+
+}
+p { font-weight: bold;}
