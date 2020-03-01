@@ -1,0 +1,84 @@
+.flexb{
+    display: flex;
+    flex-direction: row;
+}
+#video{
+    height: 40%;
+    width: 38%;
+    margin: 2%;
+    margin-top: 6%;
+    position: sticky;
+    top: 0;
+}
+.video2{
+    height: 40%;
+    width: 38%;
+    margin: 2%;
+    margin-top: 6%;
+}
+#video1{
+    width: 38%;
+    margin: 2%;
+    margin-top: 6%;
+    position: sticky;
+    top: 0;
+}
+#ingredients{
+    width: 23%;
+    margin: 1%;
+    margin-top: 6%;
+}
+#ingredients label{
+    font-size: 140%;
+    margin: 2%;
+}
+form{
+    display: grid;
+}
+.form_item{
+    grid-column: 1;
+}
+ol li{
+    font-size: 115%;
+    margin-bottom: 1%;
+}
+#sandwich{
+    width: 38%;
+    height: 40%;
+    margin: 2%;
+    margin-top: 6%;
+}
+#steps{
+    width: 23%;
+    margin: 1%;
+    margin-top: 6%;
+}
+#moods{
+    margin-top: 6%;
+    float: left;
+}
+#moods li{
+    display: inline;
+    float: left;
+    margin-right:5px ;
+}
+a{
+    width: 300%;
+}
+#table{
+    display: table;
+}
+header{
+    font-size:200%;
+}
+a{
+    width: 100%;
+}
+body{
+    margin: 2%;
+}
+#image_container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
