@@ -29,6 +29,19 @@
           text-align: left;
           }
       </style>
+    <script type="text/javascript">
+      function random_1(){
+        var myrandom=Math.round(Math.random()*2);
+        var link1="ice_cream2.html";
+        var link2="marshmello_sticks.html";
+        if(myrandom==0){
+           window.location.href=link1; 
+        }
+        else{
+            window.location.href=link2;
+        }
+      }
+    </script>
 </head>
 <body>
     <h1><font face="Times" color="black" text-align="center" > Have you been stressing about something lately? probably yes so obviously the answer is some easy made ice-cream to go from :( to :) </h1>
@@ -131,15 +144,12 @@
     <div id="moods">
         <header>feeling something else? Take your pick</header>
         <ul style="list-style: none;">
-            <li><a href="ice_cream2.html" class="btn btn-dark btn-lg">sad</a></li>
-            <li><a href="grapeleaves.html" class="btn btn-primary btn-lg">happy</a></li>
-            <li><a href="nachos.html" class="btn btn-primary btn-lg">Angry</a></li>        
+            <li><a onclick="random_1()" class="btn btn-primary btn-lg">sad</a></li>
+            <li><a href="grapeleaves2.html" class="btn btn-primary btn-lg">happy</a></li>       
             <li><a href="sandwiches2.html" class="btn btn-primary btn-lg">lazy</a></li>
-            <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-            <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-            <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-            <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-            <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
+            <li><a href="everyday_salad.html" class="btn btn-primary btn-lg">Busy</a></li>
+            <li><a href="omelette.html" class="btn btn-primary btn-lg">Lonely</a></li>
+            <li><a href="marshmello_sticks.html" class="btn btn-primary btn-lg">Silly</a></li>
             <li><a href="apple_puff.html" class="btn btn-primary btn-lg">bored</a></li>      
         </ul>
     </div>

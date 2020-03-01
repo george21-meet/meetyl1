@@ -9,19 +9,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Food to Mood</title>
+          <script type="text/javascript">
+      function random_1(){
+        var myrandom=Math.round(Math.random()*2);
+        var link1="ice_cream2.html";
+        var link2="marshmello_sticks.html";
+        if(myrandom==0){
+           window.location.href=link1; 
+        }
+        else{
+            window.location.href=link2;
+        }
+      }
+    </script>
 </head>
 <body>
     <header id="title">Food to the Mood</header>
     <header id="subtitle"> Choose your mood to get some scrumptious international recipes </header>
     <ul>
-        <li><a href="ice_cream2.html" class="btn btn-dark btn-lg">sad</a></li>
-        <li><a href="grapeleaves.html" class="btn btn-primary btn-lg">happy</a></li>
-        <li><a href="nachos.html" class="btn btn-primary btn-lg">Angry</a></li>
+        <li><a onclick="random_1()" class="btn btn-primary btn-lg">sad</a></li>
+        <li><a href="grapeleaves2.html" class="btn btn-primary btn-lg">happy</a></li>
         <li><a href="sandwiches2.html" class="btn btn-primary btn-lg">lazy</a></li>        
-        <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-        <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-        <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
-        <li><a href="" class="btn btn-primary btn-lg">blah</a></li>
+        <li><a href="everyday_salad.html" class="btn btn-primary btn-lg">Busy</a></li>
+        <li><a href="omelette.html" class="btn btn-primary btn-lg">Lonely</a></li>
+        <li><a href="marshmello_sticks.html" class="btn btn-primary btn-lg">Silly</a></li>
         <li><a href="apple_puff.html" class="btn btn-primary btn-lg">bored</a></li>    
     </ul>
 </body>
